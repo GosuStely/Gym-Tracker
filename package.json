@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "fullstack-project",
+  "version": "1.0.0",
+  "main": "initDb.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
