@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="templates.css">
     <title>Templates</title>
 </head>
+
 <body>
     <header>
         <button>Dark Mode</button>
         <h1 id="logo">FitBro</h2>
-        <button>Start Menu</button>
+            <button>Start Menu</button>
     </header>
     <hr>
     <main>
         <section class="templates-container">
             <section class="templates-topside-container">
-            <p id="templates-counter">Templates (0)</p>
-            <button>Add template</button>
+                <p id="templates-counter">Templates (0)</p>
+                <button id="add-template-button">Add template</button>
             </section>
             <section class="templates-bottomside-container">
-
+                <section class="template">
+                    <section class="template-header">
+                        <p>Header</p>
+                        <button></button>
+                    </section>
+                    <section class="exercise">
+                        <p>exercise</p>
+                        <button></button>
+                    </section>
+                </section>
             </section>
         </section>
     </main>
+    <script src="app.js" type="module"></script>
 </body>
+
 </html>

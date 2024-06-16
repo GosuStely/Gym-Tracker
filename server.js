@@ -1,12 +1,14 @@
 import express from 'express';
 import path from 'path';
 import * as database from './database/database-module.js'
+import templatesRouter from './database/get-templates-router.js'
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(express.static(path.join(path.resolve(), 'public')));
+app.use(templatesRouter);
 
 
 // HTTP methods with function references
